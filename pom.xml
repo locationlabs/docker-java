@@ -67,7 +67,7 @@
 		<slf4j-api.version>1.7.25</slf4j-api.version>
 
 		<bouncycastle.version>1.60</bouncycastle.version>
-		<junixsocket.version>2.0.4</junixsocket.version>
+		<junixsocket.version>2.1.2</junixsocket.version>
 		<guava.version>19.0</guava.version>
 
 		<!-- test dependencies -->
@@ -504,7 +504,7 @@
 							<failOnViolation>true</failOnViolation>
 							<logViolationsToConsole>true</logViolationsToConsole>
 							<linkXRef>false</linkXRef>
-							<!-- if some IDE has integration and requires other place, propose 
+							<!-- if some IDE has integration and requires other place, propose
 								it -->
 							<configLocation>
 								src/test/resources/checkstyle/checkstyle-config.xml
